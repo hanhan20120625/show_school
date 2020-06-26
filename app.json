@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/total/index",
+    "pages/lookQuestions/index",
+    "pages/lookTask/index",
+    "pages/myReleases/index",
+    "pages/rankingList/index",
+    "pages/showVideo/index",
+    "pages/login/index",
+    "pages/auth/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "表演课堂",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "感谢老师",
+          "iconPath": "icons/dianzan.png",
+          "selectedIconPath": "icons/zan.png"
+        },
+      {
+        "pagePath": "pages/showVideo/index",
+      "text": "看直播",
+      "iconPath": "icons/video.png",
+      "selectedIconPath": "icons/video-sed.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
